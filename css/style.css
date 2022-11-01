@@ -6,6 +6,7 @@
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 .container {
@@ -16,6 +17,163 @@ a {
 body {
   background: #1E2023;
   font-family: "Poppins", sans-serif;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background: #1E2024;
+  padding: 10px 0;
+}
+#header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .header--logo {
+  display: flex;
+  align-items: center;
+}
+#header .header--logo h5 {
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 12px;
+  margin-left: 10px;
+  color: #FFFFFF;
+}
+#header .header--navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+#header .header--navbar a {
+  font-weight: 500;
+  font-size: 14px;
+  color: #9099A3;
+  transition: 0.4s;
+}
+#header .header--navbar a:hover {
+  transform: scale(1.1);
+  color: white;
+}
+#header .header--btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+#header .header--btn button {
+  font-size: 14px;
+  color: #FFFFFF;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  padding: 10px 30px;
+  border: none;
+  transition: 0.4s;
+}
+#header .header--btn button:hover, #header .header--btn button:focus {
+  transform: scale(1.1);
+  background: transparent;
+  border: 1px dashed #1A5CFF;
+}
+
+#hero {
+  background: url("../img/Rectangle 2068.png") no-repeat center/cover;
+  min-height: 100vh;
+}
+#hero .hero {
+  position: relative;
+}
+#hero .hero--bg {
+  width: 112.5%;
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  left: -100px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 81.2%, #1E2125 100%);
+}
+#hero .hero--text {
+  width: 419px;
+  padding: 120px 0 400px 0;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+}
+#hero .hero--text h4 {
+  padding: 15px 0 0 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+#hero .hero--text__btn {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+#hero .hero--text__btn--btn1 {
+  font-size: 14px;
+  color: #FFFFFF;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  padding: 10px 30px;
+  border: none;
+  transition: 0.4s;
+}
+#hero .hero--text__btn--btn1:hover, #hero .hero--text__btn--btn1:focus {
+  transform: scale(1.1);
+  background: transparent;
+  border: 1px dashed #1A5CFF;
+}
+#hero .hero--text__btn--btn1:hover {
+  transform: scale(1.1);
+}
+#hero .hero--text__btn--btn2 {
+  font-size: 14px;
+  color: #FFFFFF;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  padding: 10px 30px;
+  border: none;
+  transition: 0.4s;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #9099A3;
+  border: 1px solid #9099A3;
+  border-radius: 15px;
+  padding: 8px 10px;
+  background: transparent;
+}
+#hero .hero--text__btn--btn2:hover, #hero .hero--text__btn--btn2:focus {
+  transform: scale(1.1);
+  background: transparent;
+  border: 1px dashed #1A5CFF;
+}
+#hero .hero--text__btn--btn2:hover {
+  transform: scale(1.1);
+}
+#hero .hero--text__club {
+  font-size: 16px;
+  color: #9099A3;
+  margin-top: -500px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 150px 0;
+}
+#hero .hero--text__club svg {
+  padding: 0 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,10 +1,137 @@
 @import "global";
 
-#header{
-  .header{
-    &--navbar{
-      &__icons{
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background: #1E2024;
+  padding: 10px 0;
 
+  .header {
+    @include df;
+
+    &--logo {
+      @include df2;
+
+      h5 {
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 12px;
+        margin-left: 10px;
+        color: #FFFFFF;
+      }
+    }
+
+    &--navbar {
+      @include df;
+      width: 50%;
+
+      a {
+        font-weight: 500;
+        font-size: 14px;
+        color: #9099A3;
+        transition: .4s;
+
+        &:hover {
+          transform: scale(1.1);
+          color: white;
+        }
+      }
+    }
+
+    &--btn {
+      @include df;
+      width: 200px;
+
+      button {
+        @include btn;
+      }
+    }
+  }
+}
+
+
+#hero {
+  background: url("../img/Rectangle 2068.png") no-repeat center/cover;
+  min-height: 100vh;
+
+  .hero {
+    position: relative;
+
+    &--bg {
+      width: 112.5%;
+      height: 200px;
+      position: absolute;
+      bottom: 0;
+      left: -100px;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 81.2%, #1E2125 100%);
+    }
+
+    &--text {
+      width: 419px;
+      padding: 120px 0 400px 0;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 54px;
+
+
+      h4 {
+        padding: 15px 0 0 0;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+      }
+
+      &__btn {
+        padding: 30px 0;
+        @include df;
+        width: 300px;
+
+        &--btn1 {
+          @include btn;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+
+        &--btn2 {
+          @include btn;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+
+          font-weight: 700;
+          font-size: 16px;
+          text-transform: capitalize;
+          color: #9099A3;
+          border: 1px solid #9099A3;
+          border-radius: 15px;
+          padding: 8px 10px;
+          background: transparent;
+        }
+
+
+      }
+
+      &__club {
+        font-size: 16px;
+        color: #9099A3;
+        margin-top: -500px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0 150px 0;
+
+        svg {
+          padding: 0 10px;
+
+        }
       }
     }
   }
