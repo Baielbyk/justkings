@@ -9,6 +9,7 @@
 
 a{
   text-decoration: none;
+  color: white;
 }
 
 .container{
@@ -22,7 +23,7 @@ body{
 }
 
 
-$a:red;
+
 
 
 @mixin df{
@@ -31,6 +32,25 @@ $a:red;
   align-items: center;
 }
 
-@mixin btn{
+@mixin df2 {
+  display: flex;
+  align-items: center;
+}
 
+
+@mixin btn{
+  font-size: 14px;
+  color: #FFFFFF;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  padding: 10px 30px;
+  border: none;
+  transition: .4s;
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+    background: transparent;
+    border: 1px dashed #1A5CFF;
+  }
 }
