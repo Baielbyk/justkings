@@ -477,3 +477,97 @@
   }
 
 }
+#paket{}
+.game{
+  color: white;
+  font-weight: 700;
+  font-size: 36px;
+  justify-content: center;
+  display: flex;
+
+}
+.point{
+  @include under;
+  margin-top: 15px;
+}
+.paket--clone--include{
+  @include node;
+  margin-top: 50px;
+}
+.dollar{
+  color: rgba(108, 115, 122, 0.76);
+  font-weight: 500;
+  font-size: 16px;
+}
+.tell{
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+.just{
+  font-weight: 700;
+  font-size: 16px;
+  padding: 20px;
+}
+.green{
+  width: 80px;
+  height: 20px;
+  background: #9099A3;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+.online{
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.white{
+  width: 280px;
+  height: 50px;
+  background: #2C3E50;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 15px;
+  margin-top: 60px;
+}
+.paket--clone{
+  display: flex;
+  justify-content: space-around;
+}
+.paket--clone--include a{
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.lock{
+  width: 310px;
+  height: 35px;
+  background: #1A5CFF;
+  border-radius: 15px 15px 0 0;
+  margin-top: -25px;
+  text-align: center;
+  color: white;
+}
+.white1{
+  width: 280px;
+  height: 50px;
+  background: #1A5CFF;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 15px;
+  margin-top: 50px;
+}
+
