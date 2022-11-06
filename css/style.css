@@ -6,6 +6,7 @@
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 .container {
@@ -17,6 +18,7 @@ body {
   background: #1E2023;
   font-family: "Poppins", sans-serif;
 }
+
 
 #travel .travel {
   display: flex;
@@ -60,6 +62,568 @@ body {
 #travel .travel--btn2:hover {
   background: rgb(6, 41, 152);
   background: linear-gradient(90deg, rgba(6, 41, 152, 0.9448821765) 41%, rgb(0, 212, 255) 100%);
+
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background: #1E2024;
+  padding: 10px 0;
+}
+#header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .header--logo {
+  display: flex;
+  align-items: center;
+}
+#header .header--logo h5 {
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 12px;
+  margin-left: 10px;
+  color: #FFFFFF;
+}
+#header .header--navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+#header .header--navbar a {
+  font-weight: 500;
+  font-size: 14px;
+  color: #9099A3;
+  transition: 0.4s;
+}
+#header .header--navbar a:hover {
+  transform: scale(1.1);
+  color: white;
+}
+#header .header--btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+#header .header--btn button {
+  font-size: 14px;
+  color: #FFFFFF;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  padding: 10px 30px;
+  border: none;
+  transition: 0.4s;
+}
+#header .header--btn button:hover, #header .header--btn button:focus {
+  transform: scale(1.1);
+  background: transparent;
+  border: 1px dashed #1A5CFF;
+}
+
+#hero {
+  background: url("../img/Rectangle 2068.png") no-repeat center/cover;
+  min-height: 100vh;
+}
+#hero .hero {
+  position: relative;
+}
+#hero .hero--bg {
+  width: 112.5%;
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  left: -100px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 81.2%, #1E2125 100%);
+}
+#hero .hero--text {
+  width: 419px;
+  padding: 120px 0 400px 0;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+}
+#hero .hero--text h4 {
+  padding: 15px 0 0 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+#hero .hero--text__btn {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+#hero .hero--text__btn--btn1 {
+  font-size: 14px;
+  color: #FFFFFF;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  padding: 10px 30px;
+  border: none;
+  transition: 0.4s;
+}
+#hero .hero--text__btn--btn1:hover, #hero .hero--text__btn--btn1:focus {
+  transform: scale(1.1);
+  background: transparent;
+  border: 1px dashed #1A5CFF;
+}
+#hero .hero--text__btn--btn1:hover {
+  transform: scale(1.1);
+}
+#hero .hero--text__btn--btn2 {
+  font-size: 14px;
+  color: #FFFFFF;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  padding: 10px 30px;
+  border: none;
+  transition: 0.4s;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #9099A3;
+  border: 1px solid #9099A3;
+  border-radius: 15px;
+  padding: 8px 10px;
+  background: transparent;
+}
+#hero .hero--text__btn--btn2:hover, #hero .hero--text__btn--btn2:focus {
+  transform: scale(1.1);
+  background: transparent;
+  border: 1px dashed #1A5CFF;
+}
+#hero .hero--text__btn--btn2:hover {
+  transform: scale(1.1);
+}
+#hero .hero--text__club {
+  font-size: 16px;
+  color: #9099A3;
+  margin-top: -500px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 150px 0;
+}
+#hero .hero--text__club svg {
+  padding: 0 10px;
+}
+
+#mission .mission h4 {
+  position: absolute;
+  width: 40%;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 21px;
+  color: #2C3E50;
+  margin: 100px 0;
+  padding: 10px 45px;
+}
+#mission .mission--text__tittle {
+  position: absolute;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+}
+#mission .mission--text__tittle h5 {
+  line-height: 30px;
+  padding: 110px 0 0 760px;
+  color: #2C3E50;
+  width: 30%;
+  font-size: 15px;
+}
+#mission .mission--text {
+  padding: 90px 0;
+  color: white;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+}
+#mission .mission--text h2 {
+  position: absolute;
+  padding: 300px 0 0 758px;
+  color: #1E2023;
+  font-size: 24px;
+}
+#mission .mission img {
+  padding: 70px 0;
+  width: 1350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mission .mission--text__image {
+  width: 411px;
+  height: 411px;
+  position: absolute;
+  margin: -550px 0 0 -400px;
+}
+#mission .mission--text__five {
+  position: absolute;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #2C3E50;
+  width: 394px;
+  height: 222px;
+  padding: 370px 0 0 788px;
+  font-family: "Poppins", sans-serif;
+}
+#mission .mission--text__five h4 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2C3E50;
+  margin: 50px -40px;
+}
+#mission .mission--text__five h6 {
+  position: absolute;
+  margin: 130px 10px;
+  font-size: 15px;
+}
+#mission .mission--text__five h3 {
+  position: absolute;
+  margin: 160px 10px;
+  font-size: 15px;
+}
+#mission .mission--text__five img {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 50px 300px 0;
+}
+
+#formats .formats__school {
+  position: absolute;
+  margin-left: -640px;
+}
+#formats .formats__school button {
+  position: absolute;
+  margin-top: 100px;
+}
+#formats .formats__school ion-icon {
+  position: absolute;
+  margin-top: 110px;
+}
+#formats .formats__school__text {
+  position: absolute;
+  margin-top: 10px;
+  padding: 0 30px;
+  margin-right: 1px;
+}
+#formats .formats h2 {
+  margin-left: 830px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2C3E50;
+  margin-top: -270px;
+}
+#formats .formats h1 {
+  color: white;
+  font-size: 36px;
+}
+#formats .formats--tittle__05 svg {
+  margin-left: 160px;
+  position: absolute;
+}
+#formats .formats--tittle__05 h4 {
+  position: absolute;
+  margin-left: 160px;
+}
+#formats .formats--tittle__05 h5 {
+  margin-left: 160px;
+  width: 400px;
+  margin-top: -220px;
+}
+#formats .formats--tittle__05 button {
+  font-size: 14px;
+  color: #FFFFFF;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  padding: 10px 30px;
+  border: none;
+  transition: 0.4s;
+  margin-left: 460px;
+}
+#formats .formats--tittle__05 button:hover, #formats .formats--tittle__05 button:focus {
+  transform: scale(1.1);
+  background: transparent;
+  border: 1px dashed #1A5CFF;
+}
+#formats .formats--tittle__05 ion-icon {
+  position: absolute;
+  margin-left: 460px;
+}
+#formats .formats--tittle__05 h3 {
+  margin-left: 510px;
+}
+#formats .formats--tittle__04 button {
+  position: absolute;
+  margin-top: -110px;
+}
+#formats .formats--tittle__04 ion-icon {
+  position: absolute;
+  margin-top: -100px;
+}
+#formats .formats--tittle__fon {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px 0;
+}
+#formats .formats--tittle__fon2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px 0;
+}
+#formats .formats--tittle__fon3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px 0;
+}
+#formats .formats--tittle__line {
+  position: absolute;
+  margin: -1300px 0 0 240px;
+}
+#formats .formats--tittle__fon svg {
+  position: absolute;
+  margin-left: -500px;
+  margin-top: -110px;
+}
+#formats .formats--tittle__fon h3 {
+  position: absolute;
+  font-weight: 900;
+  font-size: 29px;
+  line-height: 36px;
+  color: #9099A3;
+  margin-top: -190px;
+  margin-left: -270px;
+}
+#formats .formats--tittle__fon h2 {
+  position: absolute;
+  margin-left: -630px;
+  margin-top: -60px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2C3E50;
+}
+#formats .formats--tittle__fon h4 {
+  position: absolute;
+  margin-left: -610px;
+  margin-top: 70px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2C3E50;
+}
+#formats .formats--tittle__fon button {
+  font-size: 14px;
+  color: #FFFFFF;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  padding: 10px 30px;
+  border: none;
+  transition: 0.4s;
+  position: absolute;
+  margin-top: 170px;
+  margin-left: -300px;
+}
+#formats .formats--tittle__fon button:hover, #formats .formats--tittle__fon button:focus {
+  transform: scale(1.1);
+  background: transparent;
+  border: 1px dashed #1A5CFF;
+}
+#formats .formats--tittle__fon ion-icon {
+  position: absolute;
+  color: #FFFFFF;
+  margin-left: -200px;
+  margin-top: 170px;
+}
+#formats svg {
+  position: absolute;
+  margin-left: 800px;
+  margin-top: -330px;
+}
+#formats h3 {
+  position: absolute;
+  font-weight: 900;
+  font-size: 29px;
+  line-height: 36px;
+  color: #9099A3;
+  margin-left: 1150px;
+  margin-top: -310px;
+}
+#formats h4 {
+  position: absolute;
+  margin-left: 800px;
+  margin-top: -260px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2C3E50;
+}
+#formats h5 {
+  position: absolute;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2C3E50;
+  margin-left: 800px;
+  margin-top: -200px;
+}
+#formats button {
+  font-size: 14px;
+  color: #FFFFFF;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  padding: 10px 30px;
+  border: none;
+  transition: 0.4s;
+  position: absolute;
+  margin-left: 1090px;
+  margin-top: -130px;
+}
+#formats button:hover, #formats button:focus {
+  transform: scale(1.1);
+  background: transparent;
+  border: 1px dashed #1A5CFF;
+}
+#formats ion-icon {
+  position: absolute;
+  color: #FFFFFF;
+  margin-left: 1090px;
+  margin-top: -120px;
+  padding: 0 110px;
+}
+
+.game {
+  color: white;
+  font-weight: 700;
+  font-size: 36px;
+  justify-content: center;
+  display: flex;
+}
+
+.point {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.paket--clone--include {
+  width: 310px;
+  height: 370px;
+  background: white;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.dollar {
+  color: rgba(108, 115, 122, 0.76);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.tell {
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+.just {
+  font-weight: 700;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.green {
+  width: 80px;
+  height: 20px;
+  background: #9099A3;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+
+.online {
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.white {
+  width: 280px;
+  height: 50px;
+  background: #2C3E50;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 15px;
+  margin-top: 60px;
+}
+
+.paket--clone {
+  display: flex;
+  justify-content: space-around;
+}
+
+.paket--clone--include a {
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.lock {
+  width: 310px;
+  height: 35px;
+  background: #1A5CFF;
+  border-radius: 15px 15px 0 0;
+  margin-top: -25px;
+  text-align: center;
+  color: white;
+}
+
+.white1 {
+  width: 280px;
+  height: 50px;
+  background: #1A5CFF;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 15px;
+  margin-top: 50px;
+
 }
 
 /*# sourceMappingURL=style.css.map */
