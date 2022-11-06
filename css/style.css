@@ -18,4 +18,48 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+#travel .travel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#travel .travel--img {
+  margin: 80px 0 0 0;
+  width: 1115px;
+}
+#travel .travel--btn {
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  background: #1A5CFF;
+  font-size: 20px;
+  margin-top: 1090px;
+  margin-left: 490px;
+  padding: 12px 200px;
+  border-radius: 16px;
+  border: white;
+  position: absolute;
+}
+#travel .travel--btn:hover {
+  background: rgb(6, 41, 152);
+  background: linear-gradient(90deg, rgba(6, 41, 152, 0.9448821765) 41%, rgb(0, 212, 255) 100%);
+}
+#travel .travel--btn2 {
+  position: absolute;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  background: #1A5CFF;
+  font-size: 20px;
+  margin-top: 500px;
+  margin-right: 550px;
+  padding: 12px 200px;
+  border-radius: 16px;
+  border: white;
+}
+#travel .travel--btn2:hover {
+  background: rgb(6, 41, 152);
+  background: linear-gradient(90deg, rgba(6, 41, 152, 0.9448821765) 41%, rgb(0, 212, 255) 100%);
+}
+
 /*# sourceMappingURL=style.css.map */
