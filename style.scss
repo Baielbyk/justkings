@@ -625,4 +625,60 @@
   margin-left: 15px;
   margin-top: 50px;
 }
+.help--grout{
+  color: white;
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 130px;
+  margin-left: 50px;
+}
+.join{
+  color: white;
+  width: 250px;
+  margin-left: 50px;
+}
+.four input{
+  width: 616px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  border: none;
+  font-size: 16px;
+  padding: 0 10px;
+}
+.four p{
+  color: #9099A3;
+}
+.four{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 5px;
+}
+.bun{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  margin-top: -100px;
+}
+.pot{
+  width: 269px;
+  color: white;
+  margin-top: -60px;
+  margin-left: 580px;
+}
+.early{
+  width: 280px;
+  height: 60px;
+  background: #1A5CFF;
+  box-shadow: 0 5px 8px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  border: none;
+  font-size: 18px;
+  color: white;
+}
+.help button {
+  margin-left: 930px;
+  margin-top: 20px;
+}
 
